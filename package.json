@@ -1,0 +1,15 @@
+{
+  "name": "php-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:phpstan": "onchange \"api/**/*.php\" -- vendor/bin/phpstan analyse --memory-limit 6G"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "onchange": "^7.1.0"
+  }
+}

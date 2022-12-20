@@ -1,0 +1,15 @@
+{
+  "phpstan.binPath": "vendor/bin/phpstan",
+  "phpstan.path": "./vendor/phpstan/phpstan/phpstan",
+  "phpstan.configPath": "./phpstan.neon",
+  "phpstan.enabled": true,
+  "php.validate.enable":false,
+  "php.validate.run":"onSave",
+  "editor.formatOnSave": false,
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "intelephense.format.enable": false,
+    "intelephense.format.braces": "k&r"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "sdeli/php-rest-api",
+    "require": {},
+    "require-dev": {
+      "kktsvetkov/krumo": "^0.4.4",
+        "phpstan/phpstan": "^1.8"
+    },
+    "scripts": {
+      
+    }
+}
